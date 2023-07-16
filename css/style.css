@@ -733,9 +733,10 @@ address {
     height: 580px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(1);
-
     background-color: var(--primare-text-color-theme-light);
+
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 250ms var(--cubic);
 }
 
 .backdrop.is-hidden .modal {
