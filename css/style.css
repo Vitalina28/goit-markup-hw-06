@@ -492,7 +492,7 @@ address {
     margin-right: auto;
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: var(--primare-text-color-theme-dark);
+    background-color: var(--first-decoration-backgraund);
 }
 
 .second-part {
